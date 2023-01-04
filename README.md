@@ -1,3 +1,3 @@
 # Koko Clone 2020 updatte
 
-CSS got so much better!
+HTML & CSS are so much fun!

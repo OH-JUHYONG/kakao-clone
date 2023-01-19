@@ -1,0 +1,60 @@
+.status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px 2.5px;
+}
+
+.nav {
+  position: fixed; /*어떠한 상황에서도 위치를 고정*/
+  bottom: 0;
+  width: 100%; /*이걸 안하면 postion 실행시 폭 간격이 무너짐*/
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_link {
+  position: relative;
+  color: #2e363e;
+}
+
+.nav_notification {
+  background-color: tomato;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px; /*사각형을 원으로 만들고 싶을때는 width/2의 값을 활용*/
+
+  /*글자 가운데 정렬*/
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: whitesmoke;
+  font-weight: 600;
+
+  /*
+    position: absolute은 가장 가까운 relative를 가진 부모 기준으로 움직임
+    따라서 nav_notification의 부모인 nav_link 에다가 position: relaitve 추가
+    */
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.nav_dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  left: 25px;
+  bottom: 30px;
+}

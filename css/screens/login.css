@@ -47,11 +47,10 @@
 
 #login-form input[type="submit"] {
     background-color: var(--yellow);
-    cursor: pointer;
-    /*커서를 가져다 놨을때 변화*/
+    cursor: pointer; /*커서를 가져다 놨을때 변화*/
     font-size: 15px;
     padding: 20px 0px;
-    border-radius: 5px;
+    border-radius: 5px; /*테두리둥글게*/
 }
 
 #login-form a {

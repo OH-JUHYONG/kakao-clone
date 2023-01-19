@@ -136,3 +136,8 @@ table {
 input:focus{
     outline: none;
 }
+
+a{
+    color: inherit;
+    text-decoration: none; /*기본 아이콘 색인 파란색을 적용 x*/
+}

@@ -5,6 +5,8 @@
   padding: var(
     --horizontal-space
   ); /*어떤 페이지든 일정한 간격을 유지하기에 variable.css에 저장된  값을 불러옴*/
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -14,4 +16,5 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+  position: relative;
 }

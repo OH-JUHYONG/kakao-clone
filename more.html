@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcomo t Kokoa Talk</title>
+    <title>More - Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,22 +23,19 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fa-sharp fa-solid fa-magnifying-glass fa-lg"></i></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a
+        ></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fa-light fa-circle-info"></i>Friends' Names Display
-      <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
+    <main class="main-screen more-screen">
       <div class="user-component">
-        <!-- user-component__column*2-->
+        <!-- user-component__column*2 단축키 사용-->
         <div class="user-component__column">
           <img
             src="https://avatars.githubusercontent.com/u/90824684?s=400&u=b383985862ecf4f1c7d0c8327e1e84e6eaa6c3d5&v=4"
@@ -46,33 +43,47 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">ohanthony</h4>
-            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+            <h6 class="user-component__subtitle">+ 787 192 029</h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+          <i class="fa-regular fa-message fa-2x"></i>
+        </div>
       </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-chevron-up fa-xl"></i>
+      <div class="icon-row">
+        <!--" .icon-row__icons*4>spna "-->
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-calendar"></i>
+          <span>Calendar</span>
         </div>
-        <div class="user-component">
-          <!-- user-component__column*2-->
-          <div class="user-component__column">
-            <img
-              src="https://avatars.githubusercontent.com/u/90824684?s=400&u=b383985862ecf4f1c7d0c8327e1e84e6eaa6c3d5&v=4"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-face-smile"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-paint-roller"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-file-invoice-dollar"></i>
+          <span>Account</span>
+        </div>
+      </div>
+      <div class="more-suggestion">
+        <h4 class="more-suggestion__title">Suggestions</h4>
+        <div class="more-suggestion__icons">
+          <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-image">
+              <i class="fa-solid fa-quote-right"></i>
             </div>
+            <span class="more-suggestion__icon-text">Kokoa Story</span>
           </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fa-solid fa-chevron-right fa-xl"></i>
+          <div class="more-suggestion__icons">
+            <div class="more-suggestion__icon">
+              <div class="more-suggestion__icon-image">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <span class="more-suggestion__icon-text">Kokoa Story</span>
             </div>
           </div>
         </div>
@@ -84,7 +95,7 @@
       <ul class="nav_list">
         <li class="nav_btn">
           <a class="nav_link" href="friends.html">
-            <i class="fa-solid fa-user fa-2x"></i>
+            <i class="fa-regular fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav_btn">

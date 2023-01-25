@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Talk</title>
+    <title>Settings - Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -22,36 +22,43 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><i class="fa-sharp fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+    <!-- header.alt-header>div.alt-header__column*3 -->
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html"><i class="fa-solid fa-angle-left fa-3x"></i> </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Setting</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-sharp fa-solid fa-magnifying-glass fa-lg"></i>
       </div>
     </header>
 
-    <main class="main-screen">
-      <div class="user-component">
-        <!-- user-component__column*2: 코드 생성 명령문-->
-        <div class="user-component__column">
-          <img
-            src="https://avatars.githubusercontent.com/u/90824684?s=400&u=b383985862ecf4f1c7d0c8327e1e84e6eaa6c3d5&v=4"
-            class="user-component__avatar user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">ohanthony</h4>
-            <h6 class="user-component__subtitle">
-              Pleas check My KaKao Account info
-            </h6>
+    <main class="main-screenn">
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-bullhorn"></i>
+            <span>Notices</span>
           </div>
-        </div>
-        <div class="user-component__column">
-          <span class="user-component__time">21:25</span>
-          <div class="badge">1</div>
-        </div>
-      </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-flask"></i>
+            <span>KoKoa Lab</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-column">Lastest Version</div>
+        </li>
+      </ul>
     </main>
 
     <!-- nav>ul>li*4>a -->
@@ -65,7 +72,7 @@
         <li class="nav_btn">
           <a class="nav_link" href="chats.html">
             <span class="nav_notification badge">1</span>
-            <i class="fa-sharp fa-solid fa-comment fa-2x"></i>
+            <i class="fa-regular fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav_btn">

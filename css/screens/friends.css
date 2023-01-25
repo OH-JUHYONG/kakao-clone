@@ -28,3 +28,31 @@
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
 }
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden; /*이 처리를 안해주면 splash-screen이 남아있는 상태가 되버린다*/
+  }
+}
+
+/*
+- absolute인 div는 가장 가까운 relative인 부모에 맞춰 정렬
+*/
+
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh; /*화면 높이의 100%를 의미*/
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 2s;
+}

@@ -1,3 +1,4 @@
-# Koko Clone 2020 updatte
+# Kakao Clone Coding
 
-HTML & CSS are so much fun!
+- HTML
+- CSS

@@ -63,7 +63,7 @@
   font-size: 14px;
 }
 
-/* '|' Ç¥½Ã*/
+/* '|' í‘œì‹œ*/
 .open-post__members .divider {
   width: 1px;
   height: 10px;
@@ -76,7 +76,7 @@
 }
 
 .open-post__photo {
-  position: relative; /*position: absolute;À» À§ÇØ ÇÊ¿ä*/
+  position: relative; /*position: absolute;ì„ ìœ„í•´ í•„ìš”*/
 }
 
 .open-post__photo img {
@@ -92,7 +92,7 @@
   border-radius: 20px;
   display: flex;
   align-items: center;
-  position: absolute; /* Å©±â¸¦ ¸ÂÃçÁÜ */
+  position: absolute; /* í¬ê¸°ë¥¼ ë§ì¶°ì¤Œ */
   bottom: 10px;
   right: 10px;
   font-size: 12px;
@@ -119,9 +119,8 @@
 
 /*
 (will-change)
-: ±×·¡ÇÈÄ«µå¸¦ ÀÌ¿ëÇØ¼­ ¾Ö´Ï¸ŞÀÌ¼ÇÀ» °¡¼ÓÈ­ ½ÃÅ´
+: ê·¸ë˜í”½ì¹´ë“œë¥¼ ì´ìš©í•´ì„œ ì• ë‹ˆë©”ì´ì…˜ì„ ê°€ì†í™” ì‹œí‚´
 */
-
 .open-post__heart-count:hover i {
   will-change: transform;
   animation: heartBeat 1s linear infinite;

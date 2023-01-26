@@ -1,5 +1,5 @@
 /*
-ºê¶ó¿ìÀú¿¡ ±âº»ÀûÀ¸·Î Àû¿ëµÇ¾î ÀÖ´Â CSS¸¦ ÃÊ±âÈ­ ÇØÁÖ´Â ÀÛ¾÷
+ë¸Œë¼ìš°ì €ì— ê¸°ë³¸ì ìœ¼ë¡œ ì ìš©ë˜ì–´ ìˆëŠ” CSSë¥¼ ì´ˆê¸°í™” í•´ì£¼ëŠ” ì‘ì—…
 https: //cssdeck.com/blog/scripts/eric-meyer-reset-css/
 */
 html,
@@ -83,12 +83,12 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -103,41 +103,41 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+  content: "";
+  content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-input:focus{
-    outline: none;
+input:focus {
+  outline: none;
 }
 
-a{
-    color: inherit;
-    text-decoration: none; /*±âº» ¾ÆÀÌÄÜ »öÀÎ ÆÄ¶õ»öÀ» Àû¿ë x*/
+a {
+  color: inherit;
+  text-decoration: none; /*ê¸°ë³¸ ì•„ì´ì½˜ ìƒ‰ì¸ íŒŒë€ìƒ‰ì„ ì ìš© x*/
 }

@@ -2,9 +2,9 @@
   background-color: tomato;
   width: 24px;
   height: 24px;
-  border-radius: 12px; /*»ç°¢ÇüÀ» ¿øÀ¸·Î ¸¸µé°í ½ÍÀ»¶§´Â width/2ÀÇ °ªÀ» È°¿ë*/
+  border-radius: 12px; /*ì‚¬ê°í˜•ì„ ì›ìœ¼ë¡œ ë§Œë“¤ê³  ì‹¶ì„ë•ŒëŠ” width/2ì˜ ê°’ì„ í™œìš©*/
 
-  /*±ÛÀÚ °¡¿îµ¥ Á¤·Ä*/
+  /*ê¸€ì ê°€ìš´ë° ì •ë ¬*/
   justify-content: center;
   align-items: center;
   display: flex;

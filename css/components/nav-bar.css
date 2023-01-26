@@ -8,9 +8,9 @@
 }
 
 .nav {
-  position: fixed; /*¾î¶°ÇÑ »óÈ²¿¡¼­µµ À§Ä¡¸¦ °íÁ¤*/
+  position: fixed; /*ì–´ë– í•œ ìƒí™©ì—ì„œë„ ìœ„ì¹˜ë¥¼ ê³ ì •*/
   bottom: 0;
-  width: 100%; /*ÀÌ°É ¾ÈÇÏ¸é postion ½ÇÇà½Ã Æø °£°İÀÌ ¹«³ÊÁü*/
+  width: 100%; /*ì´ê±¸ ì•ˆí•˜ë©´ postion ì‹¤í–‰ì‹œ í­ ê°„ê²©ì´ ë¬´ë„ˆì§*/
   background-color: #f9f9fa;
   padding: 20px 50px;
   box-sizing: border-box;
@@ -39,11 +39,11 @@
   }
 }
 
+/*
+position: absoluteì€ ê°€ì¥ ê°€ê¹Œìš´ relativeë¥¼ ê°€ì§„ ë¶€ëª¨ ê¸°ì¤€ìœ¼ë¡œ ì›€ì§ì„
+ë”°ë¼ì„œ nav_notificationì˜ ë¶€ëª¨ì¸ nav_link ì—ë‹¤ê°€ position: relaitve ì¶”ê°€
+*/
 .nav_notification {
-  /*
-    position: absoluteÀº °¡Àå °¡±î¿î relative¸¦ °¡Áø ºÎ¸ğ ±âÁØÀ¸·Î ¿òÁ÷ÀÓ
-    µû¶ó¼­ nav_notificationÀÇ ºÎ¸ğÀÎ nav_link ¿¡´Ù°¡ position: relaitve Ãß°¡
-    */
   position: absolute;
   left: 20px;
   bottom: 15px;

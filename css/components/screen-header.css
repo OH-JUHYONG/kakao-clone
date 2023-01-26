@@ -4,7 +4,7 @@
   align-items: center;
   padding: var(
     --horizontal-space
-  ); /*¾î¶² ÆäÀÌÁöµç ÀÏÁ¤ÇÑ °£°İÀ» À¯ÁöÇÏ±â¿¡ variable.css¿¡ ÀúÀåµÈ  °ªÀ» ºÒ·¯¿È*/
+  ); /*ì–´ë–¤ í˜ì´ì§€ë“  ì¼ì •í•œ ê°„ê²©ì„ ìœ ì§€í•˜ê¸°ì— variable.cssì— ì €ì¥ëœ  ê°’ì„ ë¶ˆëŸ¬ì˜´*/
   margin-bottom: 15px;
   margin-top: 20px;
 }
